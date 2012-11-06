@@ -41,18 +41,18 @@ $(document).bind "mobileinit", ->
     # jQuery Mobile will automatically bind the clicks on anchor tags in your document. Setting this option to false will prevent all anchor click handling including the addition of active button state and alternate link bluring. This should only be used when attempting to delegate the click management to another library or custom code.
     # linkBindingEnabled: true
 
-    loader:
-      prototype:
-        options:
+    # loader:
+      # prototype:
+        # options:
 
           # Set the text that appears when a page is loading. If set to false, the message will not appear at all.
-          text: 'loading'
+          # text: 'loading'
 
           # Whether the text should be visible when a loading message is shown. The text is always visible for loading errors.
-          textVisible: false
+          # textVisible: false
 
           # The theme that the loading message box uses when text is visible.
-          theme: 'a'
+          # theme: 'a'
     
     # Set a max width for transitions. The option accepts any number representing a pixel width and its default value false. If a number value is set, transition "none" will be used if the window is wider than the specified value.
     # maxTransitionWidth: false
