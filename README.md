@@ -34,6 +34,7 @@ There is currently no formal infrastructure for testing generators, however you 
 * [Ember](https://github.com/yeoman/generators/tree/master/lib/generators/ember#readme)
 * [Ember-Starter](https://github.com/yeoman/generators/tree/master/lib/generators/ember-starter#readme)
 * [Jasmine](https://github.com/yeoman/generators/tree/master/lib/generators/jasmine/app#readme)
+* [jQuery Mobile](https://github.com/yeoman/generators/tree/master/lib/generators/jquery-mobile#readme)
 * [Mocha](https://github.com/yeoman/generators/tree/master/lib/generators/mocha/app#readme)
 * [QuickStart]((https://github.com/yeoman/generators/tree/master/lib/generators/quickstart#readme)
 * [Testacular](https://github.com/yeoman/generators/tree/master/lib/generators/testacular/app#readme)
