@@ -33,7 +33,11 @@ $(document).bind "mobileinit", ->
     # gradeA: -> $.support.mediaquery
     
     # jQuery Mobile will automatically listen and handle changes to the location.hash. Disabling this will prevent jQuery Mobile from handling hash changes, which allows you to handle them yourself or use simple deep-links within a document that scroll to a particular id.
-    # hashListeningEnabled: true
+    <% if( useBackbone ) { %>
+      hashListeningEnabled: false
+    <% } else { %>
+      # hashListeningEnabled: true
+    <% } %>
     
     # Warning: Setting this property to true will cause performance degradation on enhancement. Once set, all automatic enhancements made by the framework to each enhanceable element of the user's markup will first check for a data-enhance=false parent node. If one is found the markup will be ignored. This setting and the accompanying data attribute provide a mechanism through which users can prevent enhancement over large sections of markup.
     # ignoreContentEnabled: false
